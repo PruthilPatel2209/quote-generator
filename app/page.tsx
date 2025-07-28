@@ -34,7 +34,7 @@ export default function Home() {
 				<p>Loading...</p>
 			) : (
 				<>
-					<p className="text-xl italic mb-4 max-w-xl">"{quote}"</p>
+					<p className="text-xl italic mb-4 max-w-xl">{quote}</p>
 					<p className="text-md font-semibold mb-6">- {author}</p>
 				</>
 			)}
